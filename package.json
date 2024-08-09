@@ -1,0 +1,27 @@
+{
+  "name": "@r-tui/llrt-react",
+  "version": "0.1.0",
+  "description": "@r-tui/llrt-react",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsx ./build.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@r-tui/share": "0.1.7",
+    "@r-tui/terminal": "0.1.7",
+    "@r-tui/react": "0.1.8",
+    "react": "^18.3.1",
+    "txiki-node-polyfill": "^0.1.1"
+  },
+  "devDependencies": {
+    "@txikijs/types": "^24.6.0",
+    "@types/node": "^22.1.0",
+    "@types/react": "^18.3.3",
+    "esbuild": "^0.23.0",
+    "tsx": "^4.16.5"
+  }
+}
